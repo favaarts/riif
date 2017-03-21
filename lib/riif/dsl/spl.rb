@@ -16,7 +16,14 @@ module Riif::DSL
       :invitem,
       :paymeth,
       :taxable,
+      :VALADJ,
       :reimbexp,
+      :servicedate,
+      :other2,
+      :other3,
+      :payitem,
+      :yeartodate,
+      :wagebase,
       :extra
     ]
     START_COLUMN = 'SPL'

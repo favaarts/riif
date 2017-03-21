@@ -11,20 +11,20 @@ module Riif::DSL
       :price,
       :cost,
       :taxable,
-      :paymeth,
-      :taxvend,
-      :taxdist,
-      :toprint,
+      # :paymeth,
+      # :taxvend,
+      # :taxdist,
+      # :toprint,
       :prefvend,
       :reorderpoint,
-      :extra,
-      :custfld1,
-      :custfld2,
-      :custfld3,
-      :custfld4,
-      :custfld5,
-      :dep_type,
-      :ispassedthru
+      :extra
+      # :custfld1,
+      # :custfld2,
+      # :custfld3,
+      # :custfld4,
+      # :custfld5,
+      # :dep_type,
+      # :ispassedthru
     ]
     START_COLUMN = 'INVITEM'
     END_COLUMN = ''

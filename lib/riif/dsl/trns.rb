@@ -12,25 +12,19 @@ module Riif::DSL
       :memo,
       :clear,
       :toprint,
+      :nameistaxable,
       :addr1,
       :addr2,
       :addr3,
       :addr4,
       :addr5,
-      :saddr1,
-      :saddr2,
-      :saddr3,
-      :saddr4,
-      :saddr5,
       :duedate,
       :terms,
       :paid,
       :paymeth,
+      :shipvia,
       :shipdate,
-      :rep,
-      :ponum,
-      :invtitle,
-      :invmemo
+      :other1
     ]
     START_COLUMN = 'TRNS'
     END_COLUMN = 'ENDTRNS'

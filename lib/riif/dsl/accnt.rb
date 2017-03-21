@@ -3,11 +3,11 @@ module Riif::DSL
     HEADER_COLUMNS = [
       :name,
       :accnttype,
-      :obamount,
-      :desc,
-      :scd,
-      :accnum,
-      :extra
+      # :obamount,
+      # :desc,
+      # :scd,
+      :accnum
+      # :extra
     ]
     START_COLUMN = 'ACCNT'
     END_COLUMN = ''
