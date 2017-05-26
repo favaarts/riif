@@ -10,9 +10,11 @@ module Riif::DSL
       :addr5,
       :vtype,
       :cont1,
+      :cont2,
       :phone1,
       :phone2,
       :faxnum,
+      :email,
       :note,
       :taxid,
       :limit,
@@ -22,16 +24,16 @@ module Riif::DSL
       :companyname,
       :firstname,
       :midinit,
-      :lastname,
-      :custfld1,
-      :custfld2,
-      :custfld3,
-      :custfld4,
-      :custfld5,
-      :custfld6,
-      :custfld7,
-      :_1099,
-      :note
+      :lastname
+      # :custfld1,
+      # :custfld2,
+      # :custfld3,
+      # :custfld4,
+      # :custfld5,
+      # :custfld6,
+      # :custfld7,
+      # :_1099,
+      # :note
     ]
     START_COLUMN = 'VEND'
     END_COLUMN = ''

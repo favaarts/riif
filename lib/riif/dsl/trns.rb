@@ -14,17 +14,10 @@ module Riif::DSL
       :toprint,
       :nameistaxable,
       :addr1,
-      :addr2,
       :addr3,
-      :addr4,
-      :addr5,
-      :duedate,
       :terms,
-      :paid,
-      :paymeth,
       :shipvia,
-      :shipdate,
-      :other1
+      :shipdate
     ]
     START_COLUMN = 'TRNS'
     END_COLUMN = 'ENDTRNS'

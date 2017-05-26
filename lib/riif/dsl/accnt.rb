@@ -4,10 +4,10 @@ module Riif::DSL
       :name,
       :accnttype,
       # :obamount,
-      # :desc,
+      :desc,
       # :scd,
-      :accnum
-      # :extra
+      :accnum,
+      :extra
     ]
     START_COLUMN = 'ACCNT'
     END_COLUMN = ''
