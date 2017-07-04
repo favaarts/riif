@@ -65,7 +65,6 @@ module Riif::DSL
       :note,
       :cont1,
       :cont2,
-      :ctype,
       :terms,
       :taxable,
       :limit,
