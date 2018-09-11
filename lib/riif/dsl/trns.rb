@@ -12,11 +12,14 @@ module Riif::DSL
       :memo,
       :clear,
       :toprint,
-      :nameistaxable,
       :addr1,
+      :addr2,
       :addr3,
+      :addr4,
+      :addr5,
+      :duedate,
       :terms,
-      :shipvia,
+      :paid,
       :shipdate
     ]
     START_COLUMN = 'TRNS'
