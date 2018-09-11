@@ -14,10 +14,10 @@ module Riif::DSL
       :qnty,
       :price,
       :invitem,
+      :paymeth,
       :taxable,
-      :other2,
-      :yeartodate,
-      :wagebase,
+      :reimbexp,
+      :extra
     ]
     START_COLUMN = 'SPL'
     END_COLUMN = ''
